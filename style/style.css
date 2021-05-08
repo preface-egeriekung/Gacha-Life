@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope&family=Short+Stack&display=swap');
+@import "character.css";
+@import "edit_item.css";
+
+#banner {
+	background-color:#2C2C2C;
+}
+
+body {
+	font-family: 'Short Stack', cursive;
+}
+
+.form-head {
+	font-family: 'Annie Use Your Telescope', cursive;
+	font-weight: 700;
+
+}
+
+.row {
+	margin-top: 0.5rem;
+	margin-bottom: 0.5rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+form {
+	padding: 0.5rem;
+}
+
+#form-row {
+	padding-right: 1rem;
+	padding-left: 1rem;
+}
+
+#footer-row {
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 1rem;
+}
+
+.follow {
+	padding-left: 0.25rem;
+	font-size: 1rem;
+	font-weight: 400;
+}
+
+/*cards:)*/
+
+#cards-row {
+	padding-left: 1rem;
+	padding-right: 1rem;
+}
+
+.card-title {
+	text-align: center;
+}
+
+.pic {
+	width:100%;
+	height:auto;
+}
+
+
+.form-col {
+	position: absolute;
+	z-index: 10;
+	top: 13%;
+	background-color: lightgreen;
+}
+
+@media(max-width:576px) {
+	.form-col {
+	position: static;
+	}
+}

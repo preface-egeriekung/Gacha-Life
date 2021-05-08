@@ -1,0 +1,34 @@
+/*character head*/
+.character-head>h2 {
+	display: inline-block;
+	padding: 0.5rem;
+}
+
+.card-template01 {
+	flex-direction: row;
+}
+
+.card-img-left {
+	width:25%;
+}
+
+.card-template01>.card-body {
+	width:75%;
+}
+
+@media(max-width: 576px) {
+	.character-head {
+		text-align: center;
+	}
+
+	.card-template01 {
+		flex-direction: column;
+	}
+
+	.card-img-left {
+		width:100%;
+	}
+
+	.card-template01>.card-body {
+		width:100%;
+	}

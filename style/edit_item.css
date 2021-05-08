@@ -1,0 +1,27 @@
+.edit-btn {
+	margin-top: 10px;
+}
+
+#btn-col {
+	position: static;
+}
+
+#btn-container {
+	flex-direction: column;
+	position: absolute;
+	z-index: 10;
+	top: 13%;
+}
+
+@media(max-width:576px) {
+	#btn-container {
+	flex-direction: row;
+	position: static;
+	width:100%;
+	justify-content: space-evenly;
+	z-index: 1000;
+	top: unset;
+	bottom:80%;
+	}
+}
+
